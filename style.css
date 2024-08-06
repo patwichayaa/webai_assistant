@@ -1,0 +1,38 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply the font globally */
+body, .stApp, .stButton, .stTextInput, .stSelectbox, .stSlider, .stNumberInput, .stFileUploader, .stMarkdown, .stDataframe, .stExpander, .stSidebar, .stSidebarContent, .stExpanderHeader, .stExpanderContent {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Specific styles for Streamlit titles and text */
+h1, h2, h3, h4, h5, h6, .stTitle, .stText, .stMarkdown {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Example for font weights */
+.poppins-thin {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 100;
+}
+
+.poppins-regular {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700;
+}
+
+/* Apply font to file uploader text */
+.css-1vy0v5d { /* This class may vary based on Streamlit version */
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Apply font to button text within file uploader */
+.css-1n8v7c7 { /* This class may vary based on Streamlit version */
+    font-family: 'Poppins', sans-serif !important;
+}
